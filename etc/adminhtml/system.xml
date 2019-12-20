@@ -20,6 +20,7 @@
                     <label>Hide Shipping Rate in Totals</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <depends> <field id="enable">1</field> </depends>
+                    <comment>applicable when shipping rate is 0.00</comment>
                 </field>
             </group>
         </section>
