@@ -1,4 +1,4 @@
-# Ambab SkipShipping
+# Ambab SkipShipping [BETA]
 A simple extension for magento 2.
 This extension enables the system to skip the shipping method from the cart and checkout step when there is only one shipping method enabled from the admin backend. 
 
