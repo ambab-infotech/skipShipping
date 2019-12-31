@@ -7,6 +7,10 @@
    "OSL-3.0",
    "AFL-3.0"
  ],
+ "require": {
+   "magento/module-checkout": "100.3.*",
+ },
+ "minimum-stability": "beta",
  "keywords": [
    "magento 2",
    "ambab",
