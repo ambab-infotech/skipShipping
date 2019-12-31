@@ -18,6 +18,7 @@ Install the extension through composer package manager.
 - Go to project root directory
 - composer require ambab/module-skipshipping
 - bin/magento module:enable Ambab_SkipShipping
+- bin/magento setup:upgrade
 - bin/magento cache:flush
 
 ## Configuration
