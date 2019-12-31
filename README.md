@@ -2,25 +2,34 @@
 
 THIS EXTENSION IS STILL IN DEVELOPMENT AND NOT READY FOR USE.
 
-A simple extension for magento 2.
 This extension enables the system to skip the shipping method from the cart and checkout step when there is only one shipping method enabled from the admin backend. 
 
-#Installation
+## Features
+
+- Hide shipping method from cart & checkout page if there is single shipping method.
+- Hide Shipping charges from cart & checkout page's order summary
+- Easy installation
+- 100% Open Source Code
+
+## Installation
 
 Install the extension through composer package manager.
 
-composer require ambab/module-skipshipping
-bin/magento module:enable Ambab_SkipShipping
+- Go to project root directory
+- composer require ambab/module-skipshipping
+- bin/magento module:enable Ambab_SkipShipping
+- bin/magento cache:flush
 
-You can check if the module has been installed using bin/magento module:status
+## Configuration
 
-You should be able to see Ambab_SkipShipping in the module list
+- Go to Admin -> Stores -> Configuration -> Ambab -> SkipShipping
+- Go to project root directory
+- bin/magento setup:static-content:deploy
+- bin/magento cache:flush
 
-Go to Admin -> Stores -> Configuration -> Ambab -> SkipShipping to configure SkipShipping
+## Contribute
 
-If you do not see Skip Shipping Module, please clear your Magento Cache from your admin panel (System -> Cache Management).
+Feel free to fork and contribute to this module by creating a PR to develop branch.
 
-Support
+## Support
 Visit www.ambab.com for support requests.
-
-
