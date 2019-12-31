@@ -1,6 +1,4 @@
-# Ambab SkipShipping [BETA]
-
-THIS EXTENSION IS STILL IN DEVELOPMENT AND NOT READY FOR USE.
+# Ambab SkipShipping
 
 This extension enables the system to skip the shipping method from the cart and checkout step when there is only one shipping method enabled from the admin backend. 
 
@@ -18,6 +16,7 @@ Install the extension through composer package manager.
 - Go to project root directory
 - composer require ambab/module-skipshipping
 - bin/magento module:enable Ambab_SkipShipping
+- bin/magento setup:upgrade
 - bin/magento cache:flush
 
 ## Configuration
