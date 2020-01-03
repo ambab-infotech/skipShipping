@@ -10,7 +10,6 @@
  "require": {
    "magento/module-checkout": "100.3.*"
  },
- "minimum-stability": "stable",
  "keywords": [
    "magento 2",
    "ambab",
