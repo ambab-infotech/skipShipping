@@ -8,7 +8,7 @@
    "AFL-3.0"
  ],
  "require": {
-   "magento/module-checkout": "100.3.*"
+   "magento/module-checkout": "100.4.*"
  },
  "keywords": [
    "magento 2",

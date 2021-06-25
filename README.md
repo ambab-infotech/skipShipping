@@ -31,4 +31,5 @@ Install the extension through composer package manager.
 Feel free to fork and contribute to this module by creating a PR to develop branch.
 
 ## Support
-Visit www.ambab.com for support requests.
+
+Please feel free to reach out at tech.support@ambab.com
